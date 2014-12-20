@@ -8,3 +8,6 @@ autopublish
 insecure
 meteor-platform
 
+iron:router
+aldeed:collection2
+aldeed:autoform

@@ -1,0 +1,34 @@
+// Bootstrap
+@import "bootstrap/bootstrap.import.less";
+
+// Font Awesome
+@import "font-awesome/font-awesome.import.less";
+
+@import 'mixins.import';
+@import 'variables.import';
+
+// Bootstrap extensions
+@import 'bootstrap-ext/buttons.import.less';
+@import 'bootstrap-ext/type.import.less';
+
+// Misc Global Styles
+::-moz-selection { background: @brand-primary; color: #fff; text-shadow: none; }
+::selection { background: @brand-primary; color: #fff; text-shadow: none; }
+
+.loading {
+  padding: 48px 0;
+  text-align: center;
+
+  i {
+    color: @gray-lighter;
+  }
+}
+
+html, body {height: 100%;}
+
+body {
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Calibri,Arial,sans-serif;
+  font-size: 13px;
+  color: #2D2D2D;
+  text-rendering: optimizelegibility;
+}
